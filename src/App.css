@@ -33,4 +33,53 @@
  
 }
 
+.home{
+  display :flex;
+}
 
+.productContainer 
+{
+  display:flex;
+  width: 78%;
+  padding:20px;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+
+.filters 
+{
+  background-color: burlywood;
+  color:white;
+  padding: 20px;
+  display:flex;
+  flex-direction :column;
+  width: 20%;
+  margin:10px;
+  height:86vh;
+}
+
+.filterform {
+  
+  padding-bottom:35px;
+
+}
+
+.title
+{
+font-size: 34px;
+padding-bottom:20px;
+}
+
+.card-img
+ {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+  
+}
+
+.prod-card
+{
+ padding:5px;
+}
